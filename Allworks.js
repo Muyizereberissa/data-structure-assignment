@@ -33,7 +33,7 @@ class UniqueInt {
                             uniqueNumbers.push(number);
                         }
                     } else {
-                        throw new Error(`Number out of range: ${number}`);
+                        console.log(`Number out of range: ${number}. Skipping...`);
                     }
                 }
             }
